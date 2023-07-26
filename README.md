@@ -1,10 +1,8 @@
-# sqlalchemy-challenge
- Honolulu, Hawaii climate analysis 
+# Honolulu Climate Analysis 
 
+Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
 
-Module 10 Challenge
-Due Nov 22, 2022 by 11:59pm Points 100 Submitting a text entry box or a website url
-Before You Begin
+## Background
 Create a new repository for this project called sqlalchemy-challenge. Do not add this assignment to an existing repository.
 
 Clone the new repository to your computer.
@@ -15,13 +13,13 @@ Add your Jupyter notebook and app.py to this folder. They’ll contain the main 
 
 Push the changes to GitHub or GitLab.
 
-Files
+
+## Files
 Download the following files to help you get started:
 
 Module 10 Challenge filesLinks to an external site.
 
-Instructions
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
+## Instructions
 
 Part 1: Analyze and Explore the Climate Data
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
@@ -116,7 +114,8 @@ Join the station and measurement tables for some of the queries.
 
 Use the Flask jsonify function to convert your API data to a valid JSON response object.
 
-Requirements
+## Requirements
+
 Jupyter Notebook Database Connection (10 points)
 To receive all points, you must
 Use the SQLAlchemy create_engine() function to connect to your SQLite database (1 point)
@@ -143,7 +142,7 @@ Plot the results by using the DataFrame plot method with date as the x and preci
 
 Use Pandas to print the summary statistics for the precipitation data (2 points)
 
-Station Analysis (16 points)
+## Conclusion 
 To receive all points, you must
 Design a query that correctly finds the number of stations in the dataset (9) (2 points)
 
